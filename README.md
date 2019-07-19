@@ -12,7 +12,7 @@ no Bugs
 ## Technologies Used
 html: for entering data for using,javascript: for the condion using
 css:this for styling our project
-###Behavior Driven Develpoment(BDD)
+##Behavior Driven Develpoment(BDD)
 * the calculation of days ,moths&year of akan name
 ex: you enter date,moths,year, for getting the name 
 * the answer or solution you get after entering those birthday date,months&year.
