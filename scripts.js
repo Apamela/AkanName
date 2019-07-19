@@ -13,7 +13,7 @@ function AkanName() {
     // var male = document.getElementById('four').value;
     var gender = document.querySelector('input[name="Gender"]:checked').value;
     console.log(gender);
-    if (gender === "female") {
+    if (gender === "femalei") {
         console.log(arrayoffemale);
         document.getElementById('demo').innerHTML = arrayoffemale[Math.round(dayoftheweek)];
 
