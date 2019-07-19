@@ -1,8 +1,4 @@
-
-
-Copyright(c)2019project ce
-
-##AKan names
+#AKan names
 #### By Pamela
 #### By **{List of contributors}**
 ## Description
