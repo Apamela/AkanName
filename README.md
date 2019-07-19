@@ -1,6 +1,5 @@
 #AKan names
 #### By Pamela
-#### By **{List of contributors}**
 ## Description
 this is the project that display the akan name this is the name from cultural of ghan where they give their children name according to the day.
 ## Setup/Installation Requirements
