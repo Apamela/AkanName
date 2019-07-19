@@ -5,6 +5,8 @@ body{
 #form{
     text-align: center;
     font-style: oblique;
+    font-size: 30px;
+    
 }
 .main{
         background-image:url('https://webplus.info/images/wpi.images/cb-ghana.jpg');
@@ -16,10 +18,40 @@ body{
 .main>h1{
     text-align: center;
     padding:50px;
-    font-size: 45px;
+    font-size: 70px;
 }     
 h1 {
     text-align: center;
+    font-style: oblique;
+    font-size: 60px;
+    color:rgb(16, 19, 20);
+
 }  
-   
+h3{
+    font-size: 40px;
+    color:rgb(16, 19, 20);
+}
+input[type=number] {
+        width: 10%;
+        height: 50px;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid burlywood;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+button{
+    width: 15%;
+    height: 50px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid burlywood;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+ }
     
