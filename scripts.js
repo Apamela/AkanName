@@ -1,5 +1,5 @@
 function AkanName() {
-    var gender;
+
     var DD = parseFloat(document.getElementById("dd").value);
     var MM = parseFloat(document.getElementById("mm").value);
     var YY = parseFloat(document.getElementById("yy").value);
@@ -10,9 +10,17 @@ function AkanName() {
     document.getElementById('demo').innerHTML = Math.round(dayoftheweek);
     var arrayoffemale = ["Akosua", "Aduoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
     var arrayofmale = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
-    var gender = document.getElementById(input[name=gender]).value;
-    if (gender == 'female') {
+    // var male = document.getElementById('four').value;
+    var gender = document.querySelector('input[name="Gender"]:checked').value;
+    console.log(gender);
+    if (gender === "female") {
+        console.log(arrayoffemale);
         document.getElementById('demo').innerHTML = arrayoffemale[Math.round(dayoftheweek)];
+
+    } else {
+        console.log(arrayofmale);
         document.getElementById('demo').innerHTML = arrayofmale[Math.round(dayoftheweek)];
+
+
     }
 }
