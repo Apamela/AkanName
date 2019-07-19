@@ -10,7 +10,13 @@ body{
         background-image:url('https://webplus.info/images/wpi.images/cb-ghana.jpg');
         background-size: cover;
         width: 2000px;
-        height: 1000px;
+        height: 900px;
         font-style: oblique;
 }
-        
+.main>h1{
+    text-align: center;
+    padding:50px;
+    font-size: 45px;
+}        
+}    
+    
